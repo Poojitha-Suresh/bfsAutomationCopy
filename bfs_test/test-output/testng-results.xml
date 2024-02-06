@@ -1,367 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="4" failed="5" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-10T00:13:37 IST" name="Default suite" finished-at="2023-12-10T00:16:53 IST" duration-ms="196145">
+  <suite started-at="2024-02-05T19:48:31 IST" name="Default suite" finished-at="2024-02-05T19:53:37 IST" duration-ms="306503">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-12-10T00:13:37 IST" name="Default test" finished-at="2023-12-10T00:16:53 IST" duration-ms="196145">
+    <test started-at="2024-02-05T19:48:31 IST" name="Default test" finished-at="2024-02-05T19:53:37 IST" duration-ms="306503">
       <class name="cucumberOptions.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:13:37 IST" name="setUpClass" finished-at="2023-12-10T00:13:38 IST" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:48:31 IST" name="setUpClass" finished-at="2024-02-05T19:48:31 IST" duration-ms="173" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@215c6ec0]]>
+                <![CDATA[org.testng.TestRunner@6ecc02bb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:13:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:14:09 IST" duration-ms="31026" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:48:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:49:07 IST" duration-ms="35611" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_1_12_Verify OTP screen UI"]]>
+                <![CDATA["TC_3_2_Verify click on Privacy policy link"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page Features"]]>
+                <![CDATA["Slot Booking Page Features"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:14:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:14:34 IST" duration-ms="25330" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:49:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:49:41 IST" duration-ms="34753" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_1_13_Verify entering valid 4 digit OTP"]]>
+                <![CDATA["TC_3_4_Verify that the first available date is preselected"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page Features"]]>
+                <![CDATA["Slot Booking Page Features"]]>
               </value>
             </param>
           </params>
-          <exception class="java.net.UnknownHostException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:49:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:50:15 IST" duration-ms="33305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_3_5_Verify that user able to select the desired time slot"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Slot Booking Page Features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:50:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:50:56 IST" duration-ms="41452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_3_7_Verify that user able to click on timezone drop down and change the timezone"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Slot Booking Page Features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:50:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:51:21 IST" duration-ms="25050" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC_3_8_Verify Trial booking confirmation upon clicking on Confirm Slot CTA"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Slot Booking Page Features"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[No such host is known (stage-api.whjr.one)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: No such host is known (stage-api.whjr.one)
-at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
-at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1059)
-at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1668)
-at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1003)
-at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1658)
-at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1524)
-at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
-at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
-at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
-at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
-at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-at io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:141)
-at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
-at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1209)
-at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1331)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:789)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
-at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.FilterContext$next.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:70)
-at io.restassured.filter.Filter$filter$0.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:148)
-at io.restassured.filter.Filter$filter.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
-at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
-at io.restassured.filter.FilterContext$next.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1331)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:789)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1331)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:789)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
-at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
-at utils.OTPGenerator.getOTP(OTPGenerator.java:25)
-at pageObjects.RegistrationPage.enterOTP(RegistrationPage.java:135)
-at stepDefinitions.RegistrationPageStepDefinitions.i_enter_the_otp(RegistrationPageStepDefinitions.java:49)
-at ✽.I enter the OTP received on mobile number "2536253625"(file:///E:/BFS%20Test%20Automation/bfs_test/src/test/java/features/registrationPage.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:14:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:14:51 IST" duration-ms="17445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_1_14_Verify entering of invalid 4 digit OTP"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Page Features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:14:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:15:20 IST" duration-ms="28983" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_1_15_Verify Resend Via call success message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Page Features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:15:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:15:44 IST" duration-ms="24076" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_1_16_Verify via SMS"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Page Features"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:15:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:16:06 IST" duration-ms="21380" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["TC_1_20_TO_23_Verify entering valid 4 digit OTP"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Page Features"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@class='jss119'] (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'h-100')]/a/button[contains(@class,'btn_orange')]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\TNLUSE~1.5CG\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62679/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28b7f3291e9757aa832bcd44e8c23afc]]>
+Command: [ef0facadf7e0671e9dcbee2f2c2a346f, findElement {using=xpath, value=//div[contains(@class,'h-100')]/a/button[contains(@class,'btn_orange')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51460/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef0facadf7e0671e9dcbee2f2c2a346f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@class='jss119'] (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'h-100')]/a/button[contains(@class,'btn_orange')]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\TNLUSE~1.5CG\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62679/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 28b7f3291e9757aa832bcd44e8c23afc
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at pageObjects.RegistrationPage.enterOTP(RegistrationPage.java:145)
-at stepDefinitions.RegistrationPageStepDefinitions.i_enter_the_otp(RegistrationPageStepDefinitions.java:49)
-at ✽.I enter the OTP received on mobile number "2536253625"(file:///E:/BFS%20Test%20Automation/bfs_test/src/test/java/features/registrationPage.feature:41)
+Command: [ef0facadf7e0671e9dcbee2f2c2a346f, findElement {using=xpath, value=//div[contains(@class,'h-100')]/a/button[contains(@class,'btn_orange')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51460/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef0facadf7e0671e9dcbee2f2c2a346f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at pageObjects.SlotBookingPage.clickOnPickSlotButton(SlotBookingPage.java:59)
+at stepDefinitions.SlotBookingPageStepDefinitions.i_click_on_pick_a_slot(SlotBookingPageStepDefinitions.java:21)
+at ✽.I click on Pick a Slot(file:///C:/Users/Admin/Desktop/bfs_automation/bfs_test/src/test/java/features/slotBookingPage.feature:44)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:16:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:16:25 IST" duration-ms="18940" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:51:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:51:59 IST" duration-ms="37571" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_1_20_TO_23_Verify entering valid 4 digit OTP"]]>
+                <![CDATA["TC_3_9_Verify the UI elements on language selection Modal"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page Features"]]>
+                <![CDATA["Slot Booking Page Features"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@class='jss119'] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\TNLUSE~1.5CG\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62837/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 926f5500f1119e9c811aa9205fdbed32]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@class='jss119'] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\TNLUSE~1.5CG\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62837/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 926f5500f1119e9c811aa9205fdbed32
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at pageObjects.RegistrationPage.enterOTP(RegistrationPage.java:145)
-at stepDefinitions.RegistrationPageStepDefinitions.i_enter_the_otp(RegistrationPageStepDefinitions.java:49)
-at ✽.I enter the OTP received on mobile number "2536253625"(file:///E:/BFS%20Test%20Automation/bfs_test/src/test/java/features/registrationPage.feature:41)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:16:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:16:38 IST" duration-ms="13696" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:51:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:52:46 IST" duration-ms="47298" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_1_20_TO_23_Verify entering valid 4 digit OTP"]]>
+                <![CDATA["TC_3_18_Verify click on Create student_name Website CTA"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page Features"]]>
+                <![CDATA["Slot Booking Page Features"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://code-stage.whjr.one/s/dashboard] but found [https://code-stage.whjr.one/coding/mastery/trial/register]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://code-stage.whjr.one/s/dashboard] but found [https://code-stage.whjr.one/coding/mastery/trial/register]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at pageObjects.RegistrationPage.ensurePageUrl(RegistrationPage.java:87)
-at stepDefinitions.RegistrationPageStepDefinitions.validate_that_i_am_redirected_to_the_url(RegistrationPageStepDefinitions.java:55)
-at ✽.Validate that I am redirected to the url "https://code-stage.whjr.one/s/dashboard"(file:///E:/BFS%20Test%20Automation/bfs_test/src/test/java/features/registrationPage.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:16:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T00:16:53 IST" duration-ms="14866" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:52:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-05T19:53:37 IST" duration-ms="51254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["TC_1_20_TO_23_Verify entering valid 4 digit OTP"]]>
+                <![CDATA["TC_3_19_Verify click on youtube video shown under WhiteHat Jr Class Experience section"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page Features"]]>
+                <![CDATA["Slot Booking Page Features"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://learn-stage.whjr.one/coding/dashboard/classes] but found [https://code-stage.whjr.one/coding/mastery/trial/register]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://learn-stage.whjr.one/coding/dashboard/classes] but found [https://code-stage.whjr.one/coding/mastery/trial/register]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at pageObjects.RegistrationPage.ensurePageUrl(RegistrationPage.java:87)
-at stepDefinitions.RegistrationPageStepDefinitions.validate_that_i_am_redirected_to_the_url(RegistrationPageStepDefinitions.java:55)
-at ✽.Validate that I am redirected to the url "https://learn-stage.whjr.one/coding/dashboard/classes"(file:///E:/BFS%20Test%20Automation/bfs_test/src/test/java/features/registrationPage.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@6a6cb05c]" started-at="2023-12-10T00:16:53 IST" name="tearDownClass" finished-at="2023-12-10T00:16:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@4b013c76]" started-at="2024-02-05T19:53:37 IST" name="tearDownClass" finished-at="2024-02-05T19:53:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
