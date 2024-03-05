@@ -46,8 +46,9 @@ public WebDriver driver;
 	private By languageTextList_Xpath = By.xpath("//span[@class='FormRadioFieldLanguage__LangName-sc-1ywis8w-1 bjhjug']");
 	private By updateInfoCloseButton_Xpath = By.xpath("//button[@aria-label='close']");
 	private By createWebsiteButton_Xpath = By.xpath("//button[@class='create_btn btn roboto_bold mt-2']");
-	private By trialSuccessYoutube_Xpath = By.xpath("//iframe[@src='https://www.youtube-nocookie.com/embed/TSdaqIt8c2g?autoplay=1&mute=1&rel=0']");
+	private By trialSuccessYoutube_Xpath = By.xpath("//iframe[contains(@src,'https://www.youtube-nocookie.com/embed/TSdaqIt8c2g?autoplay=1&mute=1&rel=0')]");
 	private By trialSuccessYoutubePause_Xpath = By.xpath("//button[contains(@class, 'ytp-play-button')]");
+	
 	
 	//==================================================================
 
@@ -234,7 +235,9 @@ public WebDriver driver;
 		WebElement youtubeIframe = driver.findElement(trialSuccessYoutube_Xpath);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", youtubeIframe);
 		driver.switchTo().frame(youtubeIframe);
-		driver.findElement(trialSuccessYoutubePause_Xpath).click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));		
+		WebElement ytbPauseElement = wait.until(ExpectedConditions.visibilityOfElementLocated(trialSuccessYoutubePause_Xpath));
+		ytbPauseElement.click();
 	}
 	
 	public void ensureVideoIsPaused() {

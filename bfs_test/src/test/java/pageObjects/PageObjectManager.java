@@ -12,6 +12,7 @@ public class PageObjectManager {
 	public RegistrationPage registrationPage;
 	public LoginPage loginPage;
 	public SlotBookingPage slotBookingPage;
+	public TrialDashboardPage trialDashboardPage;
 
 	
 	public RegistrationPage getRegistrationPage() {
@@ -28,6 +29,12 @@ public class PageObjectManager {
 		slotBookingPage = new  SlotBookingPage(driver);
 		return slotBookingPage;
 	}
+	
+	public TrialDashboardPage getTrialDashboardPage() {
+		trialDashboardPage = new TrialDashboardPage(driver);
+		return trialDashboardPage;
+	}
+	
 	
 }
 
